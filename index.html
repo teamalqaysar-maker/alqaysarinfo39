@@ -3,10 +3,97 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>موقعي</title>
+  <title>alqaysarinfo39</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      min-height: 100vh;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 30px 15px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 520px;
+      text-align: center;
+    }
+
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.12);
+      margin: 0 auto 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 38px;
+      border: 3px solid rgba(255,255,255,0.15);
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .bio {
+      font-size: 15px;
+      color: #d1d5db;
+      margin-bottom: 25px;
+      line-height: 1.8;
+    }
+
+    .section-title {
+      text-align: right;
+      margin: 22px 0 12px;
+      font-size: 14px;
+      color: #93c5fd;
+      font-weight: bold;
+    }
+
+    .btn {
+      display: block;
+      text-decoration: none;
+      color: white;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      padding: 14px 18px;
+      margin-bottom: 12px;
+      border-radius: 16px;
+      transition: 0.2s ease;
+      font-size: 16px;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      background: rgba(255,255,255,0.14);
+    }
+  </style>
 </head>
 <body>
-  <h1>تم إنشاء الموقع بنجاح</h1>
-  <p>هذه أول صفحة تجريبية.</p>
+  <div class="card">
+    <div class="avatar">A</div>
+    <h1>@alqaysarinfo39</h1>
+    <p class="bio">مرحبا بك في صفحتي، هنا ستجد أهم الروابط والتحميلات المباشرة.</p>
+
+    <div class="section-title">روابط التواصل</div>
+    <a class="btn" href="#" target="_blank">Telegram</a>
+    <a class="btn" href="#" target="_blank">YouTube</a>
+    <a class="btn" href="#" target="_blank">Facebook</a>
+
+    <div class="section-title">التحميلات</div>
+    <a class="btn" href="#" target="_blank">تحميل التطبيق 1</a>
+    <a class="btn" href="#" target="_blank">تحميل التطبيق 2</a>
+    <a class="btn" href="#" target="_blank">تحميل التطبيق 3</a>
+  </div>
 </body>
 </html>
