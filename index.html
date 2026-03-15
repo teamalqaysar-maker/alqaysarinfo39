@@ -3,97 +3,115 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>alqaysarinfo39</title>
+  <title>القيصر للإعلام الآلي</title>
   <style>
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-      font-family: Arial, sans-serif;
     }
 
     body {
-      background: linear-gradient(135deg, #0f172a, #1e293b);
+      font-family: Arial, sans-serif;
+      background: #d1f6ff;
+      color: #083170;
       min-height: 100vh;
-      color: white;
-      display: flex;
-      justify-content: center;
-      padding: 30px 15px;
+      padding: 30px 16px 60px;
     }
 
-    .card {
+    .container {
       width: 100%;
-      max-width: 520px;
+      max-width: 580px;
+      margin: 0 auto;
       text-align: center;
     }
 
-    .avatar {
-      width: 110px;
-      height: 110px;
+    .profile-image {
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
-      background: rgba(255,255,255,0.12);
-      margin: 0 auto 15px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 38px;
-      border: 3px solid rgba(255,255,255,0.15);
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 18px;
+      border: 4px solid #ffffff;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+      background: white;
+    }
+
+    .username {
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #083170;
     }
 
     h1 {
-      font-size: 28px;
+      font-size: 30px;
       margin-bottom: 10px;
+      color: #083170;
     }
 
     .bio {
-      font-size: 15px;
-      color: #d1d5db;
-      margin-bottom: 25px;
+      font-size: 16px;
       line-height: 1.8;
+      margin-bottom: 28px;
+      color: #083170;
     }
 
     .section-title {
       text-align: right;
-      margin: 22px 0 12px;
-      font-size: 14px;
-      color: #93c5fd;
+      font-size: 15px;
       font-weight: bold;
+      margin: 24px 0 12px;
+      color: #083170;
     }
 
-    .btn {
+    .link-card {
       display: block;
+      width: 100%;
       text-decoration: none;
-      color: white;
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.12);
-      padding: 14px 18px;
-      margin-bottom: 12px;
-      border-radius: 16px;
-      transition: 0.2s ease;
-      font-size: 16px;
+      background: #ffffff;
+      color: #083170;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 14px;
+      box-shadow: 0 6px 18px rgba(8, 49, 112, 0.10);
+      border: 1px solid rgba(8, 49, 112, 0.08);
+      font-size: 17px;
+      font-weight: bold;
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
     }
 
-    .btn:hover {
+    .link-card:hover {
       transform: translateY(-2px);
-      background: rgba(255,255,255,0.14);
+      box-shadow: 0 10px 24px rgba(8, 49, 112, 0.16);
+    }
+
+    .footer-space {
+      height: 10px;
     }
   </style>
 </head>
 <body>
-  <div class="card">
-    <div class="avatar">A</div>
+  <div class="container">
+    <img src="images/alqaysar.jpg" alt="القيصر" class="profile-image" />
+
+    <div class="username">@alqaysarinfo39</div>
     <h1>القيصر للإعلام الآلي</h1>
-<p class="bio">مع القيصر اشعر دائما انك الأفضل</p>
+    <p class="bio">مع القيصر اشعر دائما انك الأفضل</p>
 
-    <div class="section-title">روابط التواصل</div>
-    <a class="btn" href="#" target="_blank">Telegram</a>
-    <a class="btn" href="#" target="_blank">YouTube</a>
-    <a class="btn" href="#" target="_blank">Facebook</a>
+    <div class="section-title">مواقع التواصل</div>
+    <a class="link-card" href="#" target="_blank">Telegram</a>
+    <a class="link-card" href="#" target="_blank">YouTube</a>
+    <a class="link-card" href="#" target="_blank">Facebook</a>
 
-    <div class="section-title">التحميلات</div>
-    <a class="btn" href="#" target="_blank">تحميل التطبيق 1</a>
-    <a class="btn" href="#" target="_blank">تحميل التطبيق 2</a>
-    <a class="btn" href="#" target="_blank">تحميل التطبيق 3</a>
+    <div class="section-title">التطبيقات</div>
+    <a class="link-card" href="#" target="_blank">التطبيق 1</a>
+    <a class="link-card" href="#" target="_blank">التطبيق 2</a>
+    <a class="link-card" href="#" target="_blank">التطبيق 3</a>
+    <a class="link-card" href="#" target="_blank">التطبيق 4</a>
+
+    <div class="footer-space"></div>
   </div>
 </body>
 </html>
