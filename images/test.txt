@@ -1,1 +1,193 @@
-ok
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>القيصر للإعلام الآلي</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+  font-family: Arial, sans-serif;
+  background: #d1f6ff;
+  color: #083170;
+  min-height: 100vh;
+  padding: 8px 16px 28px;
+}
+
+    .container {
+      width: 100%;
+      max-width: 580px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 12px;
+  border: 5px solid #ffffff;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.16);
+  background: white;
+}
+    .username {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #083170;
+}
+    
+  h1 {
+  font-size: 52px;
+  margin-bottom: 10px;
+  color: #083170;
+  line-height: 1.25;
+  text-shadow:
+    0 2px 0 #ffffff,
+    0 6px 14px rgba(8, 49, 112, 0.18);
+}
+
+    .bio {
+  font-size: 30px;
+  line-height: 1.5;
+  margin-bottom: 18px;
+  color: #083170;
+}
+
+    .section-title {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0 10px;
+  color: #083170;
+}
+
+    .link-card {
+      display: block;
+      width: 100%;
+      text-decoration: none;
+      background: #ffffff;
+      color: #083170;
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 14px;
+      box-shadow: 0 6px 18px rgba(8, 49, 112, 0.10);
+      border: 1px solid rgba(8, 49, 112, 0.08);
+      font-size: 17px;
+      font-weight: bold;
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+    }
+
+    .link-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px rgba(8, 49, 112, 0.16);
+    }
+
+    .downloader-box {
+  background: #ffffff;
+  border: 2px solid rgba(8, 49, 112, 0.10);
+  border-radius: 16px;
+  padding: 18px 16px;
+  margin: 0 auto 20px;
+  box-shadow: 0 8px 20px rgba(8, 49, 112, 0.10);
+  text-align: center;
+}
+
+.downloader-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #083170;
+  margin-bottom: 8px;
+}
+
+.downloader-code {
+  font-size: 42px;
+  font-weight: bold;
+  color: #083170;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.downloader-text {
+  font-size: 14px;
+  color: #083170;
+  line-height: 1.8;
+}
+    .footer-space {
+      height: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="images/alqaysar.jpg" alt="القيصر" class="profile-image" />
+
+    <h1>القيصر للإعلام الآلي</h1>
+    <p class="bio">مع القيصر اشعر دائما انك الأفضل</p>
+<div class="downloader-box">
+  <div class="downloader-title">كود Downloader</div>
+  <div class="downloader-code">8466400</div>
+  <div class="downloader-text">أدخل هذا الكود داخل تطبيق Downloader على Google TV أو TV Box</div>
+</div>
+    <div class="section-title">مواقع التواصل</div>
+<a class="link-card" href="https://www.instagram.com/alqaysar_info39" target="_blank">Instagram</a>
+<a class="link-card" href="https://www.facebook.com/elqayserinfo" target="_blank">Facebook</a>
+<a class="link-card" href="https://www.tiktok.com/@alqayser.info" target="_blank">TikTok</a>
+
+<div class="section-title">التطبيقات المدفوعة</div>
+<a class="link-card" href="https://files.catbox.moe/nuz6cb.apk" target="_blank">نيو فور كا (كينغ)</a>
+<a class="link-card" href="https://files.catbox.moe/8m5lkg.apk" target="_blank">فاميلي فور كا</a>
+<a class="link-card" href="https://files.catbox.moe/wuqwbg.apk" target="_blank">لينكس للهاتف</a>
+<a class="link-card" href="https://files.catbox.moe/wuqwbg.apk" target="_blank">لينكس للتلفاز</a>
+<a class="link-card" href="https://files.catbox.moe/wtvgsd.apk" target="_blank">اي بي تي في برو</a>
+<a class="link-card" href="https://files.catbox.moe/h3r732.apk" target="_blank">شوتر أي بي تي في</a>
+<a class="link-card" href="https://files.catbox.moe/3dmlx5.apk" target="_blank">ميفا ستار اي بي تي في</a>
+<a class="link-card" href="https://files.catbox.moe/npswsz.apk" target="_blank">جوبيتور</a>
+    
+    <div class="section-title">التطبيقات المجانية</div>
+<a class="link-card" href="https://files.catbox.moe/pzp2ji.apk" target="_blank">نتفلي</a>
+<a class="link-card" href="https://files.catbox.moe/74nk96.apk" target="_blank">جنرال التلفاز (كود التفعيل 000)</a>
+<a class="link-card" href="https://files.catbox.moe/921pqa.apk" target="_blank">جنرال الهاتف (كود التفعيل 000)</a>
+<a class="link-card" href="https://files.catbox.moe/dflleb.apk" target="_blank">كلود ستريم</a>
+<a class="link-card" href="https://www.instagram.com/reels/DV9lcPCiLDk/" target="_blank">تفعيل كلود ستريم</a>
+<a class="link-card" href="https://files.catbox.moe/4aa9jf.txt" download>ملف اضافات كلود ستريم</a>
+<a class="link-card" href="https://files.catbox.moe/bxvtf4.apk" target="_blank">موفي بوكس</a>
+<a class="link-card" href="https://files.catbox.moe/7b7s3e.apk" target="_blank">وي سيما</a>
+<a class="link-card" href="https://files.catbox.moe/149glm.apk" target="_blank">نوفا تي في</a>
+<a class="link-card" href="https://files.catbox.moe/2xku7g.apk" target="_blank">تلغرام</a>    
+<a class="link-card" href="https://files.catbox.moe/1rztgc.apk" target="_blank">دراما لايف</a>
+<a class="link-card" href="https://files.catbox.moe/6h6u74.apk" target="_blank">تي دراما افلام</a>
+<a class="link-card" href="https://files.catbox.moe/e10wvp.apk" target="_blank">انمي ويشر</a>
+<a class="link-card" href="https://files.catbox.moe/j280gx.apk" target="_blank">مشغل انمي ويشر</a>
+<a class="link-card" href="https://files.catbox.moe/djgbgg.apk" target="_blank">اش دي او بوكس</a>
+<a class="link-card" href="https://files.catbox.moe/3kyp4d.apk" target="_blank">مشغل اش دي او بوكس</a>
+<a class="link-card" href="https://files.catbox.moe/wf6vjr.apk" target="_blank">فيزيو افلام</a>
+<a class="link-card" href="https://files.catbox.moe/zo9dze.apk" target="_blank">أوسكار عربي</a>
+<a class="link-card" href="https://files.catbox.moe/i8syxo.apk" target="_blank">مشغل اوكار</a>
+<a class="link-card" href="https://files.catbox.moe/6axk7j.apk" target="_blank">مشغل توك توك</a>
+<a class="link-card" href="https://files.catbox.moe/s55p3v.apk" target="_blank">توك توك موبايل</a>
+<a class="link-card" href="https://files.catbox.moe/0a0qlg.apk" target="_blank">توك توك تلفاز</a>
+<a class="link-card" href="https://files.catbox.moe/b3k360.apk" target="_blank">أو زي أفلام</a>
+<a class="link-card" href="https://files.catbox.moe/ldwa62.apk" target="_blank">النحلة افلام</a>
+<a class="link-card" href="https://files.catbox.moe/pwza5g.apk" target="_blank">مشغل النحلة</a>
+
+<div class="section-title">أدوات تحتاجها</div>
+<a class="link-card" href="https://files.catbox.moe/vy7pw6.apk" target="_blank">ماوس اندرويد</a>
+<a class="link-card" href="https://files.catbox.moe/m9tzk0.apk" target="_blank">داونلوندر</a>
+
+<div class="section-title">عدد الزوار</div>
+<div class="downloader-box">
+  <img src="https://hitwebcounter.com/counter/counter.php?page=21486697&style=0003&nbdigits=6&type=page&initCount=0" />
+</div>
+
+    <div class="footer-space"></div>
+  </div>
+</body>
+</html>
